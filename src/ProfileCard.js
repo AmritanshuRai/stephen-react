@@ -1,4 +1,4 @@
-const ProfileCard = ({ title, handle, image, description }) => {
+const ProfileCard = ({ title, handle, image, description = '' }) => {
   return (
     <div className='card' style={{ minHeight: '100%' }}>
       <div className='card-image'>
